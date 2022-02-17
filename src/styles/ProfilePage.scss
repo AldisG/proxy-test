@@ -1,0 +1,33 @@
+.profile-page,
+.quiz-page {
+  padding: 2rem;
+}
+
+.profile-page__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.logo {
+  width: max-content;
+}
+.profile-content-container {
+  display: grid;
+  grid-template-columns: 20rem 1fr;
+}
+.profile__dashboard-menu {
+  display: grid;
+  gap: 1rem;
+  padding: 0 2rem;
+}
+.li-button {
+  width: 100%;
+}
+// Main section
+.profile__main {
+  background-color: #fff;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  box-shadow: 0 0 1rem #ccc;
+}
